@@ -11,7 +11,8 @@ https://docs.google.com/presentation/d/e/2PACX-1vTkpVhiIlZpOf7GryzUm0-DdscZsvpyL
 # What can I work on?
 Once you become a collaborator, check out the waffle board to see what needs done.
 
-https://waffle.io/byudevelopers/LearningSweet
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/byudevelopers/LearningSweet.svg?columns=all)]
+(https://waffle.io/byudevelopers/LearningSweet)
 
 Choose a task that no one is working on and start coding it up!
 
