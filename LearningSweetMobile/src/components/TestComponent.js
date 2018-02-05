@@ -5,13 +5,15 @@ import {
   StyleSheet,
   Text,
   View,
-  TouchableOpacity
+  TouchableOpacity,
+  Image,
+  ImageBackground,
+  Modal
 } from 'react-native';
 
+/**
 
-
-const TestComponent = (props) => (
-  <View style={styles.container}>
+<View style={styles.container}>
     <Text style={styles.appName}>
       React-redux Practice
     </Text>
@@ -42,7 +44,27 @@ const TestComponent = (props) => (
       </Text>
     </TouchableOpacity>
   </View>
+**/
+
+const TestComponent = (props) => (
+  <ImageBackground
+    style={styles.container}
+    source={require('../assets/images/byuCampus.png')}
+  >
+    <View
+      style={styles.container}
+      backgroundColor={'#002C6D50'}
+    >
+      <Image
+        source={require('../assets/images/byuLogo.png')}
+      />
+    </View>
+
+  </ImageBackground>
+
+
 )
+
 
 TestComponent.propTypes = {
   count: PropTypes.number,
@@ -56,7 +78,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF'
+    width: '100%'
+    //backgroundColor: '#F5FCFF'
   },
   appName: {
     fontSize: 20,

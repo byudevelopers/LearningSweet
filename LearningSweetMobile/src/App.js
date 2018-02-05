@@ -5,11 +5,10 @@
  */
 
 import React, { Component, PropTypes } from 'react';
-import TestComponent from './components/TestComponentContainer'
 import { Provider } from 'react-redux'
-
+import { LoginRoute }  from './routes'
 import store from './store/store'
-import { increment, decrement, zero } from './actions/test'
+import { Modal, Text } from 'react-native'
 
 // const instructions = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
@@ -18,11 +17,30 @@ import { increment, decrement, zero } from './actions/test'
 //     'Shake or press menu button for dev menu',
 // });
 
-const App = () => (
-  <Provider store={store}>
-    <TestComponent />
-  </Provider>
+/**
+    <LoginTextField
+      onChangeText={userTextEntered}
+      placeholder={'Net ID'}
+    />
+    <Image
+      source={require('./assets/images/byuLogo.png')}
+    />
 
-)
-
-export default App
+    **/
+    /**
+    <Modal
+          animationType={'slide'}
+          transparent={false}
+          visible={false}>
+          <Text>Hello World!</Text>
+        </Modal>
+    **/
+export default class App extends Component {
+  render(){
+    return(
+      <Provider store={store}>
+        <LoginRoute />
+      </Provider>
+    )
+  }
+}
