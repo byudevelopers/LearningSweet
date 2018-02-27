@@ -14,7 +14,18 @@ Once you become a collaborator, check out the waffle board to see what needs don
 ![Waffle.io - Columns and their card count](https://badge.waffle.io/byudevelopers/LearningSweet.svg?columns=all)
 (https://waffle.io/byudevelopers/LearningSweet)
 
-Choose a task that no one is working on and start coding it up!
+Choose a task that no one is working on and start contributing!
+
+# How to Contribute
+(Make sure you have everything installed as explained in the 'Gettting Started' section above)
+1. Click on the Waffle.io link above.
+2. Find a task that you want to work on in the 'To Do' column 
+3. Click on the person icon on the top right of the task card and assign yourself to it.
+4. Drag the card over to the 'In Progress' Section.
+5. Make yourself a branch in the repo with a title that describes the feature that you are working on (i.e. login-screen-branch)
+6. 
+
+
 
 # Wireframe
 To know what to make your features look like follow the wireframe we're working on.
