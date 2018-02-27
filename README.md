@@ -23,7 +23,12 @@ Choose a task that no one is working on and start contributing!
 3. Click on the person icon on the top right of the task card and assign yourself to it.
 4. Drag the card over to the 'In Progress' Section.
 5. Make yourself a branch in the repo with a title that describes the feature that you are working on (i.e. login-screen-branch)
-6. 
+6. Make sure your branch is set up as a remote branch
+7. Make something awesome on your branch
+8. Submit a pull request and we will review it and get your changes merged into the code base within a couple of days
+
+
+NOTE: If you have any questions with any of these steps feel free to email me anytime at ty.udy22@gmail.com or send me a DM in the slack workspace.
 
 
 
